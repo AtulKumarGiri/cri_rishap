@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color: #FFFDD0;
+
+}
+
+.App{
+    background-color: #FFFDD0;
+    padding: 0px 15px;
+
+}
+.body .right ul{
+    margin-left: 55px;
+    margin-top: 25px;
+}
+
+.body .right p{
+    margin-left: 15px;
+}
+
+
+.logopic{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.left{
+
+}
+
+.leftpic{
+    height: 100vh;
+    width: auto;
+
+}
+
+.body{
+    display: flex;
+}
+
+.awardpic{
+    height: 80vh;
+    width: auto;
+    margin:25px 15px;
+}
+
+
+
+.desc{
+   text-align: center;
+   margin-top: 40px;
+
+}
+
+.products{
+    width: 100%;
+    max-width: 99vw;
+    margin: 28px auto;
+    padding-top: 20px;
+
+
+}
+
+.productsimg{
+    width: 80%;
+    margin: 10px auto !important;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.values{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textcri{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.textchei{
+    text-align: center;
+    margin: 15px 15px;
+
+
+}
+
+.footer{
+    background-color: rgb(226, 43, 43);
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+span.hr {
+    background-color: red !important; 
+    margin: 50px  auto;
+    width: 95%;
+    height: 3px;
+    display: block;
+
+}
+
+.pie{
+    color: red;
+    font-weight: bold;
+}
+
+.f1{
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+    padding-bottom: 70px;
+    color: white;
+    font-size: 22px;
+    
+}
+
+.f1 a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:1030px){
+    .awardpic {
+        height: 50vh;
+    }
+}
+
+@media (max-width:770px){
+    .awardpic {
+        height: 30vh;
+    }
+    .f1 {
+        
+        font-size: 16px;
+    }
+}
+
+@media (max-width:430px){
+    .body{
+        display: block;
+    }
+    .awardpic {
+        height: 32vh;
+    }
+    .logopic {
+        height: 15vh;
+    }
+
+    .footer {
+        margin: 10px auto;
+        display: block;
+        padding: 15px;
+    }
+    .f1 {
+        padding: 5px 25px;
+        font-size: 15px;
+    }
+    .leftpic {
+        height: 30vh;
+        margin: 10px auto;
+        left: 35%;
+        position: relative;
+    }
+}
+@media (max-width: 380px){
+    .awardpic {
+        height: 28vh;
+    }
+}
